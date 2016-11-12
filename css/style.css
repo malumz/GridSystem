@@ -1,1 +1,246 @@
-/* Inserta tu código aqui */
+body {
+	width: 98%;
+	margin: 1%;
+
+}
+
+
+/*-------------------------------------------HEADER MENU*/
+header {
+     padding: 15px 0;
+     margin: 0;
+     color: #fff;
+     border-bottom: solid 1px #333;
+     background:#333;
+}
+
+.logo {
+	height: 80px;
+	width: 80px;
+	border-style: none;
+}
+.nav-header ul {
+	list-style: none;
+	padding-top: 18px;
+	margin: 0 -15px 0 0;
+	float: right;
+	font-size: 16px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 100%;
+
+}
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 15px 0;
+}
+nav li: hover a{
+	background: #585858;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color:#eee;
+	text-shadow: 2px 2px 4px #000;}
+	                    /*------------------------------------HEADER ALBUMS*/
+
+.container2 {
+	background-color: #E6E6E6;
+	border: 1px solid #E6E6E6;
+}
+h1{
+	font-size: 26px;
+	padding:5px 5px 0 30px;
+}
+.episodio{
+	font-size: 15px;
+	text-decoration: none;
+	padding: 8px 2px;
+}
+.nav-section a{
+	text-decoration: none;
+	margin:0;
+	text-shadow: none;
+	font-size: 5px;
+	color:blue;
+}
+img{
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 20px;
+	padding: 3px 3px;
+	position: relative;
+	border: 1px solid gray;
+}
+.nav-section li{
+	list-style: none;
+}
+.uno, .dos, .tres, .cuatro {
+	color: #084B8A;
+	 position: relative;
+	 top: -8px;
+	 font-size: 18px;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
+
+}
+
+.uno{
+     left: 80px;
+    
+}
+.dos{
+	left: 25px;
+	
+}
+.tres, .cuatro {
+	left: 50px;
+}
+/*--------------------------------------------------------PLAYLIST*/
+.playlist {
+	height: 80%;
+}
+.fila-uno img{
+	width: 18%;
+	position: relative;
+	margin:0;
+	padding: 2px 2px ;
+	border: 1px solid gray; }
+.fila-uno{
+	display: inline-block;
+	padding: 10px 0 5px 0;	
+}
+.options {
+	position: relative;
+	left: 750px;
+	bottom: 1200px;
+	width: 100%;
+}
+h2{
+	padding: 50px 0 0 0;
+	border-bottom: 2px solid gray;
+	font-size: 18px;
+}
+.iconos{
+	width: 20px;
+	border-style: none;
+}
+.columna li{
+	list-style: none;
+}
+.columna a{
+	text-decoration: none;
+	font-size: 15px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color:#0080FF;
+}
+.columna img{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+hr{
+	border: 1px solid gray;
+	margin-top:30px;
+	
+}
+.parrafo{
+	font-size: 14px;
+	padding: 10px 0;
+}
+.parrafo a{
+	text-decoration: none;
+	font-size: 19px;
+	color:#0080FF;
+	width: 100%;
+}
+.lista li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 0;
+}
+.lista a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#084B8A;
+	width: 100%
+}
+.da{margin-left: 20px;}
+.de{margin-left: 60px;}
+.di{margin-left: 60px;}
+.do{margin-left: 50px;}
+.du{margin-left: 60px;}
+
+.fa{margin-left: 20px;}
+.fe{margin-left: 60px;}
+.fi{margin-left: 50px;}
+.fo{margin-left: 80px;}
+.fu{margin-left: 75px;}
+
+.ga{margin-left: 20px;}
+.ge{margin-left: 50px;}
+.gi{margin-left: 55px;}
+.go{margin-left: 40px;}
+.gu{margin-left: 50px;}
+
+.ha{margin-left: 20px;}
+.he{margin-left: 50px;}
+.hi{margin-left: 60px;}
+.ho{margin-left: 50px;}
+.hu{margin-left: 80px;}
+
+.ja{margin-left: 20px;}
+.je{margin-left: 40px;}
+.ji{margin-left: 40px;}
+.jo{margin-left: 50px;}
+.ju{margin-left: 55px;}
+
+.ka{margin-left: 20px;}
+.ke{margin-left: 108px;}
+.ki{margin-left: 70px;}
+.ko{margin-left: 60px;}
+.ku{margin-left: 80px;}
+
+.la{margin-left: 20px;}
+.le{margin-left: 28px;}
+.li{margin-left: 30px;}
+.lo{margin-left: 50px;}
+.lu{margin-left: 50px;}
+
+/*-------------------------------FOOTER*/
+.cuadro{
+	background-color:#585858;
+	border: 8px solid #585858;
+	padding: 20px;
+	margin:0px;
+	position: relative;
+	bottom: 400px;
+
+}
+.resumen{
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+.more{
+    list-style: none;
+    text-decoration: none;
+    
+}
+p .final{
+	margin-left: 170px;
+	text-decoration:none;
+	font-size: 18px;
+	color: white;
+}
+.copyright{
+    margin:30px 0 10px 0; 
+    color: #cad0cb;
+    margin-left: 180px;
+}
